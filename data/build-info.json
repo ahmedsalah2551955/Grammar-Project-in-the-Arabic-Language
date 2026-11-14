@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T16:39:36Z",
+  "generator": "tools/build_data.py",
+  "totals": {
+    "lessons": 53,
+    "readyLessons": 5,
+    "banks": 1,
+    "passages": 15,
+    "questions": 45
+  },
+  "sources": {
+    "content/lessons.json": "4bc8541cf888e4d6d68b784c2002cf1ceda7d3943d761caceb991ef61fdb2566",
+    "content/passages/L01/level1.json": "036404a1ccea0424d41e519b7bf233b45e4390152ad883e0c2103a422718b39d",
+    "content/passages/L01/level2.json": "c092a80cca852b22d595db571b96cf4aa85dab31b2164bc4050edd9414652515",
+    "content/passages/L01/level3.json": "90e80a0b7a1dcc49bbb2c4ecf8d0c0211d166b3a15de49c695a4ba46e4637d31",
+    "content/passages/L01/level4.json": "364fe7d3c23e5195c7412dbcfa301fd5b40dcb71b89b3b4ac66522de6f1fec2f",
+    "content/passages/L01/level5.json": "b812b9a111c3c10d21079ac3976e387ac8c3ce093839b38bf4370150b1948949"
+  },
+  "outputs": [
+    {
+      "path": "data/lessons.js",
+      "bytes": 28225,
+      "sha256": "877f04d8914dccffadce1459878befe9950b3ffc8e68dd2b5d6aa183ba220eb4"
+    },
+    {
+      "path": "data/L01.js",
+      "bytes": 23538,
+      "sha256": "6da44fa10465f77d51ed815ac2c880c94af7797cf3ab0767ad8b65633780b9c6"
+    }
+  ]
+}

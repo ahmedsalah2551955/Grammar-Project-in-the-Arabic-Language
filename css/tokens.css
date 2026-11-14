@@ -1,0 +1,168 @@
+/* ==========================================================================
+   نَحْو — رموز التصميم
+   الألوان، الخطوط، المسافات، والظلال المشتركة بين كل الشاشات.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* الخطوط */
+  --font-ui: "Cairo", "Segoe UI", Tahoma, sans-serif;
+  --font-reading: "Amiri", "Traditional Arabic", "Times New Roman", serif;
+
+  /* الأسطح والألوان الأساسية */
+  --bg: #f4efe3;
+  --bg-deep: #ece5d5;
+  --surface: #fffdf7;
+  --surface-2: #fbf5e9;
+  --surface-3: #f1e9d9;
+  --surface-glass: rgba(255, 253, 247, 0.82);
+  --ink: #1d2b26;
+  --ink-soft: #43554d;
+  --muted: #5e6d65;
+  --line: #ded4c0;
+  --line-soft: #ebe4d5;
+  --line-strong: #c9bda5;
+
+  --primary: #0f766e;
+  --primary-strong: #0a5a54;
+  --primary-soft: #d9efeb;
+  --primary-tint: #ecf7f4;
+  --on-primary: #fbfffd;
+
+  --gold: #8a5e0d;
+  --gold-strong: #85590e;
+  --gold-soft: #f7e9ca;
+
+  --danger: #a9413b;
+  --danger-soft: #fae7e4;
+  --success: #2d7a4f;
+  --success-soft: #e1f2e8;
+  --warning: #956009;
+  --warning-soft: #fbf0d3;
+
+  --focus: #8a5e0d;
+  --selection: #cfece5;
+
+  /* ألوان المستويات — لون + نص + خلفية */
+  --level-1: #2f8f5b;
+  --level-1-ink: #1b6840;
+  --level-1-soft: #e2f3e8;
+  --level-2: #69a975;
+  --level-2-ink: #3e7448;
+  --level-2-soft: #edf6ea;
+  --level-3: #d2a31f;
+  --level-3-ink: #775a00;
+  --level-3-soft: #faf1cd;
+  --level-4: #d17a31;
+  --level-4-ink: #884513;
+  --level-4-soft: #fbe9da;
+  --level-5: #c5534a;
+  --level-5-ink: #8b2f29;
+  --level-5-soft: #f9e4e1;
+
+  /* الظلال */
+  --shadow-xs: 0 1px 2px rgba(38, 47, 41, 0.05);
+  --shadow-sm: 0 2px 8px rgba(38, 47, 41, 0.06);
+  --shadow-md: 0 14px 32px -18px rgba(30, 55, 46, 0.32);
+  --shadow-lg: 0 30px 70px -38px rgba(20, 55, 44, 0.45);
+  --shadow-primary: 0 16px 30px -18px rgba(15, 118, 110, 0.65);
+
+  /* الاستدارة */
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 999px;
+
+  /* المسافات */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* القياسات */
+  --container: 1140px;
+  --topbar-height: 76px;
+  --bottomnav-height: 68px;
+  --content-narrow: 780px;
+
+  /* الحركة */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --fast: 140ms var(--ease);
+  --normal: 220ms var(--ease);
+  --slow: 380ms var(--ease);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0c1512;
+  --bg-deep: #09110f;
+  --surface: #13211c;
+  --surface-2: #172822;
+  --surface-3: #1d302a;
+  --surface-glass: rgba(12, 21, 18, 0.82);
+  --ink: #edf5f0;
+  --ink-soft: #c4d2ca;
+  --muted: #94a69c;
+  --line: #2a3d35;
+  --line-soft: #22342d;
+  --line-strong: #3b5147;
+
+  --primary: #63cabb;
+  --primary-strong: #8ce2d4;
+  --primary-soft: #123a34;
+  --primary-tint: #0f2d28;
+  --on-primary: #06201c;
+
+  --gold: #e0b35f;
+  --gold-strong: #f0c879;
+  --gold-soft: #3a2e17;
+
+  --danger: #ef9a93;
+  --danger-soft: #3a211f;
+  --success: #7cc99c;
+  --success-soft: #143327;
+  --warning: #e5b85f;
+  --warning-soft: #382d16;
+
+  --focus: #e0b35f;
+  --selection: #1d4d44;
+
+  --level-1: #5fbd86;
+  --level-1-ink: #93dfb2;
+  --level-1-soft: #123527;
+  --level-2: #8bc994;
+  --level-2-ink: #b2e5b8;
+  --level-2-soft: #17301e;
+  --level-3: #e3bd4f;
+  --level-3-ink: #f3da8e;
+  --level-3-soft: #352c12;
+  --level-4: #e39a58;
+  --level-4-ink: #f3bf8d;
+  --level-4-soft: #392416;
+  --level-5: #df8077;
+  --level-5-ink: #f1aaa4;
+  --level-5-soft: #3a1d1a;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 18px 36px -20px rgba(0, 0, 0, 0.65);
+  --shadow-lg: 0 34px 80px -40px rgba(0, 0, 0, 0.8);
+  --shadow-primary: 0 16px 34px -18px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 900px) {
+  :root {
+    --topbar-height: 84px;
+  }
+}
